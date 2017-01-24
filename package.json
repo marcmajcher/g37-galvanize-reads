@@ -1,0 +1,19 @@
+{
+  "name": "g37-galvanize-reads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcmajcher/g37-galvanize-reads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcmajcher/g37-galvanize-reads/issues"
+  },
+  "homepage": "https://github.com/marcmajcher/g37-galvanize-reads#readme"
+}
