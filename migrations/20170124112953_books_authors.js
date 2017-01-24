@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
     return knex.schema.createTableIfNotExists('books_authors', function(table) {
         table.increments();
-        table.integer('book_id')
+        table.integer('books_id')
             .unsigned()
             .index()
             .references('id')
