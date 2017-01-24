@@ -1,7 +1,7 @@
 {
   "name": "g37-galvanize-reads",
   "version": "1.0.0",
-  "description": "",
+  "description": "Galvanize Reads",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/marcmajcher/g37-galvanize-reads/issues"
   },
-  "homepage": "https://github.com/marcmajcher/g37-galvanize-reads#readme"
+  "homepage": "https://github.com/marcmajcher/g37-galvanize-reads#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0",
+    "passport-stub": "^1.1.1",
+    "sqlite3": "^3.1.8"
+  }
 }
