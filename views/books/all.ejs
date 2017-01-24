@@ -1,0 +1,12 @@
+<% books.forEach(function (book) { %>
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-title"><%=book.title %></h4>
+            <h6 class="card-subtitle mb-2 text-muted"><%=book.genre%></h6>
+            <p class="card-text">
+                <%=book.description %>
+            </p>
+            <a href="/books/<%= book.id %>" class="card-link"> Learn more</a>
+        </div>
+    </div>
+    <% }) %>
